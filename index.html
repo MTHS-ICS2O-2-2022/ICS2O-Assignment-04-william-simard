@@ -4,7 +4,7 @@
     <header class="mdl-layout__header">
       <div class="mdl-layout__header-row">
         <!-- Title -->
-        <span class="mdl-layout-title">{assignment 4}</span>
+        <span class="mdl-layout-title"> pastry menu </span>
         <!-- Add spacer, to align navigation to the right -->
         <div class="mdl-layout-spacer"></div>
         <!-- Navigation. We hide it in small screens. -->
@@ -16,7 +16,6 @@
         </nav>
       </div>
     </header>
-    <h1>The select element</h1>
     <p>The select element is used to create a drop-down list.</p>
     <form action="/action_page.php">
       <label for="pastry">choose a pastry:</label>
@@ -26,13 +25,9 @@
         <option value="pie">pie</option>
         <option value="crepe">crepe</option>
       </select>
-      <br /><br />
+      <br />
       <input type="submit" value="Submit" />
     </form>
-    <p>
-      Click the "Submit" button and the form-data will be sent to a page on the
-      server called "action_page.php".
-    </p>
   </body>
   <head>
     <meta charset="utf-9" />
@@ -49,7 +44,7 @@
       href="https://code.getmdl.io/1.3.0/material.lime-green.min.css"
     />
     <link rel="stylesheet" href="css/style.css" />
-    <title>{$websiteTitle}</title>
+    <title>assignment 4</title>
   </head>
   <body>
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
@@ -65,35 +60,7 @@
         </nav>
       </div>
       <main class="mdl-layout__content">
-        <div class="page-content">
-          <!--Text below header-->
-          <div class="page-content">Enter number to calculate</div>
-          <!-- Numeric Textfield with Floating Label -->
-          <form action="#">
-            <div
-              class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label"
-            >
-              <input
-                class="mdl-textfield__input"
-                type="text"
-                pattern="-?[0-9]*(\.[0-9]+)?"
-                id="sample4"
-              />
-              <label class="mdl-textfield__label" for="sample4"
-                >Number...</label
-              >
-              <span class="mdl-textfield__error">Input is not a number!</span>
-            </div>
-          </form>
-          <!-- Accent-colored raised button with ripple -->
-          <button
-            class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
-            onclick="buttonClicked()"
-          >
-            Calculate
-          </button>
-        </div>
-        <div class="page-content">The answer is ...</div>
+        <div class="page-content"></div>
       </main>
     </div>
   </body>
